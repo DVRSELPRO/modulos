@@ -5,7 +5,7 @@ $conn_string = "host=189.207.247.244 port=5432 dbname=allie_predial user=postgre
  
 // establecemos una conexion con el servidor postgresSQL
 $dbconn = pg_connect($conn_string);
-pg_query("insert into cdmx_gestiones (id_gestiones, cuenta_predial) values (3,'32434323454')");
+//pg_query("insert into cdmx_gestiones (id_gestiones, cuenta_predial) values (3,'32434323454')");
 
 // Revisamos el estado de la conexion en caso de errores. 
 if(!$dbconn) {
